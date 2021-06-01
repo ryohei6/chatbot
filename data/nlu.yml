@@ -1,0 +1,139 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: how_to_register
+  examples: |
+    - [会員登録](register)ができない
+    - [登録](register)できない
+    - [会員登録](register)の方法
+    - [会員](register)になりたい
+    - [会員登録](register)はどこからすればいい
+    - 楽天の会員になりたい
+    - [会員登録](register)したい
+    - [会員登録](register)する方法を教えて
+    - [会員登録](register)するにはどうすればいい？
+    - どこで[会員登録](register)できるか？
+    - [登録方法](register)を教えて
+    - [登録](register)したい
+    - [会員登録](register)の方法がわからない
+    - [会員登録](register)の方法を教えて
+    - [会員登録](register)はどこから？
+    - [会員登録方法](register)について教えて
+
+- intent: how_to_leave
+  examples: |
+    - [退会](leave)したい
+    - 会員を[辞めたい](leave)
+    - [退会](leave)させてほしい
+    - [退会](leave)させて
+    - [退会](leave)方法を教えて
+    - [退会](leave)はどこからすればいい
+    - どこから[退会](leave)できる？
+    - [退会](leave)方法を教えて
+    - [退会](leave)方法について教えて
+    - [退会](leave)ができない
+    - [退会](leave)をどこからすればよいか？
+    - [退会](leave)のリンクを教えて
+
+- intent: how_to_change_age_or_sex
+  examples: |
+    - [性別](sex)を[変更](change)したい
+    - [年齢](age)を[変更](change)したい
+    - [性別](sex)が[変更](change)できない
+    - [年齢](age)が[変更](change)できない
+    - [性別](sex)の設定を[変更](change)したい
+    - [年齢](age)の設定を[変更](change)したい
+    - [性別](sex)[変更](change)はどこからすればいい
+    - [年齢](age)[変更](change)はどこからすればいい
+    - [性別](sex)[変更](change)のリンクを教えて
+    - [年齢](age)[変更](change)のリンクを教えて
