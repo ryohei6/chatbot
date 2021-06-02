@@ -4,12 +4,12 @@ language: ja_ginza
 
 pipeline:
     - name: HFTransformersNLP
-      model_weights: "bert-base-uncased"
+      model_weights: "cl-tohoku/bert-base-japanese-whole-word-masking"
       model_name: "bert"
     - name: "LanguageModelTokenizer"
     - name: "LanguageModelFeaturizer"
     - name: "DIETClassifier"
-      epochs: 200
+      epochs: 100
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

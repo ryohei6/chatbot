@@ -15,6 +15,10 @@ intents:
   - how_to_leave:
       use_entities:
       - leave
+  - how_to_change_age_or_sex:
+      use_entities:
+      - sex
+      - age
   - action_search
   - action_register
   - action_leave
@@ -23,6 +27,7 @@ intents:
 entities:
   - how_to_leave
   - how_to_register
+  - how_to_change_age_or_sex
 
 slots:
   how_to_leave:
@@ -51,10 +56,6 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-  utter_ggrks:
-  - text: "ググレカス"
-  - text: "ggrks"
 
 session_config:
   session_expiration_time: 60
